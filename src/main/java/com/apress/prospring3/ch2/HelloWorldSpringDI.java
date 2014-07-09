@@ -1,6 +1,6 @@
 package com.apress.prospring3.ch2;
 
-import org.apache.log4j.or.jms.MessageRenderer;
+//import org.apache.log4j.or.jms.MessageRenderer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,5 +12,4 @@ public class HelloWorldSpringDI {
 		MessageRenderer mr=ctx.getBean("renderer", MessageRenderer.class);
 		mr.render();
 	}
-
 }
